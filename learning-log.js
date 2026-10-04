@@ -13,7 +13,7 @@
   };
   const render = category => {
     list.replaceChildren();
-    const visible = entries.filter(e => category === 'all' || e.category === category).slice(0, 5);
+    const visible = entries.filter(e => category === 'all' || e.category === category);
     status.textContent = visible.length ? `${visible.length}개의 공개 공부 기록` : '아직 공개한 기록이 없습니다. 공부 기록을 차근차근 쌓아갑니다.';
     visible.forEach(e => {
       const article = element('article', '', 'log-card');

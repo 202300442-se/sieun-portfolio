@@ -43,3 +43,12 @@
 ## Public deployment verification
 
 GitHub Actions Deploy portfolio #6 성공(run 37187087692), 공개 사이트에서 NEXTAI, 여섯 메뉴, 실제 제품 사진과 공개 공부 기록 3개 확인. 공개 화면에서도 375/390/768/1440px 가로 넘침 없음. 모바일 메뉴 터치 높이 44px 확인. 배포 커밋: 049d08a9996951084e92817064df2c5bb6b5fffe.
+
+## Requested typography, logo and Economy Study update — 2026-10-04
+
+- 로컬 Pretendard 한글 Light 로딩, body/h1 폰트, #F4F3E9 배경, keep-all 확인.
+- HOME 제목 축소, 자간 축소, 서울/연도 삭제, 새 로고와 오른쪽 페이드 배치 확인.
+- ABOUT·EXPERIENCE 명함형 목록과 레드불 평창 800·시흥하늘휴게소·연고전 명칭 반영.
+- Economy Study A2:M14에 13건 반영, 공개 Y·읽음 N, Y/N 검증과 기존 줄바꿈 형식 유지.
+- 공개 데이터 16건(경제 13·브러시 3), 경제 필터 13건 표시 확인. 목록 5건 제한 제거.
+- 기사 원문·수치 검증이나 본인 성찰 작성은 수행하지 않음. 제공 요약 정리임을 표시.
