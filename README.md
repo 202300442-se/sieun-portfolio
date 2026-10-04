@@ -33,7 +33,7 @@ http://127.0.0.1:8765 를 엽니다. HTML 파일을 직접 더블클릭하면 �
 - `index.html`: 자기소개, 경험, 프로젝트 상태, 콘텐츠 링크와 이메일을 수정합니다.
 - `portfolio.css`: 색상, 글자 크기, 여백과 모바일 화면을 수정합니다. 기존 `style.css`는 보존한 이전 디자인이며 현재 페이지에서 불러오지 않습니다.
 - `interaction.js`: 단색 커서 링과 메뉴 선택 표시를 담당합니다.
-- `learning-log.js`: 공부 기록 필터와 상세 보기입니다.
+- `learning-log.js`: 공부 기록 필터, 페이지당 5개 표시, 페이지 이동과 상세 보기입니다.
 - `assets/`: 직접 제공한 로고와 기존 프로젝트 제품 사진입니다.
 - Learning Log는 아래 시트 운영 안내에 따라 수정합니다. 변경 후 검사를 실행하고 main에 반영하면 배포됩니다.
 
@@ -88,4 +88,8 @@ http://127.0.0.1:8765 에서 확인합니다. 파일을 직접 더블클릭하�
 
 ## Typography and latest requested changes
 
-전체 글꼴은 [Pretendard 공식 프로젝트](https://github.com/orioncactus/pretendard)의 웹폰트를 사용합니다. 본문은 Light(300), 제목은 400–500입니다. CDN이 차단된 환경에서는 시스템 sans-serif로 대체됩니다. 한글은 keep-all로 단어 단위 줄바꿈합니다. 새 로고는 `assets/se-logo.jpeg`이며 HOME 오른쪽에 90% 투명도(opacity 0.1), 페이드 마스크와 배경색 #F4F3E9로 표시합니다. 공부 기록 뒤의 신문 이미지는 사용자 첨부 파일이며 명함형 ABOUT·EXPERIENCE 문장과 함께 2026-10-04 수정 요청을 반영했습니다.
+전체 글꼴은 [Pretendard 공식 프로젝트](https://github.com/orioncactus/pretendard)의 웹폰트를 사용합니다. 본문은 Light(300), 일반 제목은 500, 공부 기록 제목·Observe/Create/Connect는 Bold(700)입니다. CDN이 차단된 환경에서는 시스템 sans-serif로 대체됩니다. 한글은 keep-all로 단어 단위 줄바꿈합니다. 새 로고는 `assets/se-logo.jpeg`이며 HOME 오른쪽에 90% 투명도(opacity 0.1), 페이드 마스크와 배경색 #F4F3E9로 표시합니다. 공부 기록 뒤의 신문 이미지는 사용자 첨부 파일이며 명함형 ABOUT·EXPERIENCE 문장과 함께 2026-10-04 수정 요청을 반영했습니다.
+
+## Final submission refinement — 2026-10-04
+
+공부 기록은 분야별로 5개씩 표시하고 이전·번호·다음 버튼으로 이동합니다. 필터 변경 시 1페이지로 돌아오며 전체 데이터는 보존합니다. 긴 출처명은 카드에서 숨기고 자료 확인 상태는 상세 보기에 남겼습니다. ABOUT는 #F4F3E9 위에 왼쪽 로고를 90% 투명도·15도 회전 배경으로 배치하고 구분선을 작은 원으로 바꿨습니다. 이메일은 밑줄 없이 Bold로 표시합니다.
