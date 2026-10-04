@@ -36,3 +36,6 @@ body{font-weight:300;word-break:keep-all;overflow-wrap:normal}h1,h2,h3,h4{font-f
 .about{background:#222920;color:#f4f3e9}
 .about.dark p,.about.dark dd{color:#e1e3d6}
 .about-watermark img{mix-blend-mode:screen;filter:invert(1) grayscale(1)}
+
+/* Restore separators between profile entries. */
+.profile-lines li{border-bottom:1px solid #5b6456;padding:14px 0}
