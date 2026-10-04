@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T07:10:47.269833+00:00",
+  "updatedAt": "2026-10-04T07:14:18.174296+00:00",
   "entries": [
     {
       "date": "2026-09-24",
@@ -10,7 +10,7 @@
       "summary": "ZAHORANSKY는 투자 위축, 프로젝트 결정 지연, 국제 경쟁을 배경으로 독일 사업장의 조직 재편을 검토한다고 발표했다.\n최대 120개 일자리가 영향을 받을 수 있으며 구체안은 노사 협의를 통해 마련할 예정이다.\nTodtnau와 Freiburg 사업장은 장기적으로 유지·강화한다는 방침이다.",
       "concepts": "설비투자, 고정비, 경기민감도",
       "reflection": "성찰 초안: 브러쉬 설비업체의 수요는 고객 제조업의 투자 결정과 연결된다.",
-      "nextStudy": "수주잔고와 CAPEX, 설비투자와 경기 사이클",
+      "nextStudy": "수주잔고와 CAPEX, 설비투자와 경기 사이클, CAPEX의 현금흐름 영향",
       "connection": "적용 아이디어: 설비 도입 전 고객 산업의 투자 흐름을 함께 살펴본다.",
       "url": "https://zahoransky.com/news/zahoransky-creates-conditions-for-the-future-of-its-german-sites",
       "verification": "공식 발표 확인",
