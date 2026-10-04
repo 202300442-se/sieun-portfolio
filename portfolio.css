@@ -31,3 +31,8 @@ body{font-weight:300;word-break:keep-all;overflow-wrap:normal}h1,h2,h3,h4{font-f
 .log-pagination button:disabled{opacity:.3;cursor:default}
 .email{font-weight:700;border:0;font-size:clamp(23.667px,calc(4.5vw - 1.333px),58.667px)}
 @media(max-width:600px){.about-watermark img{width:85%;height:350px;left:-22%;top:10px}.log-card{grid-template-columns:1fr;gap:8px}.log-meta{grid-row:auto;flex-direction:row;justify-content:space-between}.log-card>.text-link{grid-column:1}.log-card h3{font-size:17px}.log-pagination{gap:0}.log-pagination button{min-width:40px}}
+
+/* Restore the supplied dark ABOUT background. */
+.about{background:#222920;color:#f4f3e9}
+.about.dark p,.about.dark dd{color:#e1e3d6}
+.about-watermark img{mix-blend-mode:screen;filter:invert(1) grayscale(1)}
