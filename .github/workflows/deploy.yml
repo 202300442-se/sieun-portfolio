@@ -1,0 +1,39 @@
+name: Deploy portfolio
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_call:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Validate site and public data
+        run: python scripts/check_site.py
+      - uses: actions/configure-pages@v5
+      - name: Stage public website files only
+        run: |
+          mkdir -p _site/assets _site/data
+          cp index.html style.css portfolio.css interaction.js learning-log.js _site/
+          cp assets/se-logo.png _site/assets/
+          cp data/learning-log.json _site/data/
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deployment
