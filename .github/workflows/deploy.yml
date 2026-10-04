@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir -p _site/assets _site/data
           cp index.html style.css portfolio.css interaction.js learning-log.js _site/
-          cp assets/se-logo.png _site/assets/
+          cp assets/se-logo.png assets/brush.jpg _site/assets/
           cp data/learning-log.json _site/data/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v4
