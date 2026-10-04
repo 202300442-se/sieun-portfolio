@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-04T07:02:34.102176+00:00",
+  "entries": [
+    {
+      "date": "2026-09-24",
+      "source": "ZAHORANSKY 공식 발표",
+      "field": "브러쉬 생산설비",
+      "title": "설비투자 지연 속 독일 사업장 경쟁력 재편 검토",
+      "summary": "ZAHORANSKY는 투자 위축, 프로젝트 결정 지연, 국제 경쟁을 배경으로 독일 사업장의 조직 재편을 검토한다고 발표했다.\n최대 120개 일자리가 영향을 받을 수 있으며 구체안은 노사 협의를 통해 마련할 예정이다.\nTodtnau와 Freiburg 사업장은 장기적으로 유지·강화한다는 방침이다.",
+      "concepts": "설비투자, 고정비, 경기민감도",
+      "reflection": "성찰 초안: 브러쉬 설비업체의 수요는 고객 제조업의 투자 결정과 연결된다.",
+      "nextStudy": "수주잔고와 CAPEX",
+      "connection": "적용 아이디어: 설비 도입 전 고객 산업의 투자 흐름을 함께 살펴본다.",
+      "url": "https://zahoransky.com/news/zahoransky-creates-conditions-for-the-future-of-its-german-sites",
+      "verification": "공식 발표 확인",
+      "category": "Brush Industry",
+      "id": "42906a83abd8f2eb"
+    },
+    {
+      "date": "2026-09-22",
+      "source": "FEIBP 공식 프로그램",
+      "field": "유럽 브러쉬 산업",
+      "title": "리옹 FEIBP Congress 일정과 산업 네트워크",
+      "summary": "FEIBP 공식 프로그램은 제66회 Congress를 프랑스 리옹에서 2026년 9월 22~24일 일정으로 안내한다.\n브러쉬 관련 설비·소재 기업이 후원사로 소개되어 있다.\n일정 안내를 확인한 기록이며 실제 행사 결과나 발언 내용까지 검증한 것은 아니다.",
+      "concepts": "산업협회, B2B 네트워크",
+      "reflection": "성찰 초안: 산업협회와 공급업체 네트워크도 시장을 이해하는 자료가 될 수 있다.",
+      "nextStudy": "산업협회와 해외영업",
+      "connection": "적용 아이디어: 해외 전시·협회 정보를 바이어와 공급업체 조사에 활용한다.",
+      "url": "https://www.eurobrush.com/feibp-congress/program",
+      "verification": "공식 일정 확인 · 행사 결과 미검증",
+      "category": "Brush Industry",
+      "id": "575cd4cabf1eeaf9"
+    },
+    {
+      "date": "2026-09-18",
+      "source": "FineEngineering · SITBRUSH 대표 인터뷰",
+      "field": "기술 브러쉬",
+      "title": "자동화 공정에 맞춘 맞춤형 브러쉬 전략",
+      "summary": "SITBRUSH 대표는 산업용 브러쉬 시장이 범용품에서 공정별 맞춤 솔루션으로 이동한다고 설명했다.\n회사는 로봇·CNC 공정용 세라믹 연마 복합 브러쉬를 자체 생산한다고 밝혔다.\n기술 상담과 주문제작을 함께 제공하며, 성능과 시장 전망은 회사의 설명으로 구분한다.",
+      "concepts": "자동화, 제품 차별화, 고부가가치화",
+      "reflection": "성찰 초안: 브러쉬의 가치는 제품 규격과 함께 해결할 공정 문제로 설명할 수 있다.",
+      "nextStudy": "로봇 디버링, CNC",
+      "connection": "적용 아이디어: 홈페이지 콘텐츠를 사용 공정과 고객 문제 중심으로 구성한다.",
+      "url": "https://fineeng.eu/alessandro-acquaderni-sitbrush-industrial-composite-brushes-spid-60-years/",
+      "verification": "대표 인터뷰 확인 · 기업 주장 구분",
+      "category": "Brush Industry",
+      "id": "3d831bb8fdba89ac"
+    }
+  ]
+}
